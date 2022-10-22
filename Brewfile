@@ -3,6 +3,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
 tap 'homebrew/services'
 tap 'romkatv/powerlevel10k'
+tap 'symfony-cli/tap'
 
 # Binaries
 brew 'bat'
@@ -30,6 +31,7 @@ brew 'mysql', restart_service: :changed
 brew 'node'
 brew 'redis', restart_service: :changed
 brew 'yarn'
+brew 'symfony-cli'
 
 # Image optimizer
 brew 'jpegoptim'
