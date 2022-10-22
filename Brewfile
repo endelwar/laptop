@@ -27,6 +27,7 @@ brew 'php@7.4', restart_service: :changed
 brew 'composer'
 brew 'imagemagick'
 brew 'caddy', restart_service: :changed
+brew 'nss'
 brew 'mysql', restart_service: :changed
 brew 'node'
 brew 'redis', restart_service: :changed
