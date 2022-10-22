@@ -9,6 +9,7 @@ tap 'symfony-cli/tap'
 brew 'bat'
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'exa'
+brew 'dnsmasq'
 brew 'ffmpeg'
 brew 'gh'
 brew 'git'
