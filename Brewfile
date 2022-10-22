@@ -13,6 +13,7 @@ brew 'git'
 brew 'grep'
 brew 'httpie'
 brew 'jq'
+brew 'mc'
 brew 'mas' # Mac App Store manager
 brew "openssl"
 brew "zsh"
@@ -37,6 +38,8 @@ brew 'gifsicle'
 
 # Apps
 cask '1password'
+cask 'adobe-acrobat-reader'
+cask 'bbedit'
 cask 'caffeine'
 cask 'docker'
 cask 'dropbox'
@@ -50,11 +53,13 @@ cask 'libreoffice'
 cask 'responsively'
 cask 'sequel-ace'
 cask 'stats'
+cask 'sourcetree'
 cask 'the-unarchiver'
 cask 'transmit'
 cask 'whatsapp'
 
 # Fonts
+cask 'font-hack-nerd-font'
 cask 'font-lato'
 cask 'font-open-sans'
 cask 'font-roboto'
