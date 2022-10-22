@@ -1,7 +1,8 @@
 # Taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
-tap "homebrew/services"
+tap 'homebrew/services'
+tap 'romkatv/powerlevel10k'
 
 # Binaries
 brew 'bat'
@@ -15,8 +16,9 @@ brew 'httpie'
 brew 'jq'
 brew 'mc'
 brew 'mas' # Mac App Store manager
-brew "openssl"
-brew "zsh"
+brew 'openssl'
+brew 'zsh'
+brew 'romkatv/powerlevel10k'
 
 # Development
 brew 'php@8.1', restart_service: :changed
