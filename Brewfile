@@ -17,7 +17,6 @@ brew 'grep'
 brew 'httpie'
 brew 'jq'
 brew 'mc'
-brew 'mas' # Mac App Store manager
 brew 'openssl'
 brew 'zsh'
 brew 'romkatv/powerlevel10k'
